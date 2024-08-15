@@ -1,0 +1,393 @@
+body {
+  width: 1095px;
+  margin: auto;
+}
+
+/*************************/
+/*        Header         */
+/*************************/
+
+header {
+  font-family: "TS-Med", sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+header img {
+  width: 200px;
+}
+
+header nav {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 20px;
+}
+
+header nav i {
+  margin-right: 5px;
+}
+
+header nav div:hover {
+  cursor: pointer;
+  color: #fe5e5e;
+}
+
+header .login {
+  font-family: "TS-Reg", sans-serif;
+  font-weight: bold;
+  background-color: black;
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+}
+
+header .login:hover {
+  background-color: #fe5e5e;
+  cursor: pointer;
+}
+
+/*************************/
+/*          Main         */
+/*************************/
+
+main {
+  font-family: "TS-Reg", sans-serif;
+  padding: 20px;
+}
+
+main h1 {
+  font-family: "TS-Med", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main .revenu-info {
+  margin-bottom: 35px;
+  font-size: 14px;
+  color: rgb(70, 70, 70);
+}
+
+main .revenu-info span {
+  text-decoration: underline;
+}
+
+.explore {
+  color: #fe5e5e;
+}
+
+main nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+  gap: 5px;
+}
+
+main nav div {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  border: 2px solid black;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+main nav div:hover {
+  cursor: pointer;
+  background-color: #fe5e5e;
+  color: white;
+  border-color: white;
+}
+
+.view {
+  border: 0;
+  display: flex;
+  gap: 3px;
+}
+
+.view img {
+  width: 60%;
+}
+
+.img-col img {
+  width: 100%;
+}
+
+.img-col {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.details-path {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+}
+
+.path {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 11px;
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.article h2 {
+  font-size: 30px;
+  font-family: "TS-Med", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.article p {
+  font-size: 20px;
+  font-family: "Times-New-Roman", sans-serif;
+  opacity: 0.7;
+}
+.map img {
+  width: 427px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.box-trip {
+  background-color: #fe5e5e;
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.box-trip h2 {
+  font-family: "TS-Med", sans-serif;
+  font-size: 30px;
+}
+
+.box-trip p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.map .box-trip .creat-trip {
+  font-family: "TS-Reg", sans-serif;
+  font-size: 16px;
+  /* font-weight: bold; */
+  background-color: black;
+  padding: 20px 15px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+}
+
+.box-trip .creat-trip:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.carousel h2 {
+  font-size: 30px;
+  font-family: "TS-Med", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.carousel .item-carousel .img-view {
+  height: 190px;
+}
+
+.carousel img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.carousel .advertising {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.advertising .subtitle {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  width: 80%;
+}
+
+.carousel .advertising .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
+  flex: 1;
+}
+
+.carousel .advertising-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  overflow-y: hidden;
+  gap: 9px;
+  flex: 3;
+}
+
+.carousel .advertising-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.croisiere {
+  display: none;
+}
+
+.details h3 {
+  font-size: 24px;
+  font-family: "TS-Reg", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.enable-all {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.img-title {
+  font-family: "TS-Med", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.img-description {
+  font-size: 14px;
+  width: 95%;
+  opacity: 0.7;
+}
+
+/******     Note    ******/
+
+.item-carousel {
+  position: relative;
+}
+.note {
+  display: flex;
+  font-size: 12px;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.note i {
+  color: #04aa6c;
+}
+
+.liker {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.liker:hover {
+  cursor: pointer;
+  background-color: rgb(226, 226, 226);
+}
+
+.honor {
+  position: absolute;
+  top: 43%;
+  left: 3%;
+}
+
+.honor img {
+  width: 30px;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+}
+
+/*************************/
+/*         Footer        */
+/*************************/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #faf1ed;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+@media (max-width: 1184px) {
+  body {
+    width: 100%;
+  }
+  main nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  main nav div {
+    flex-shrink: 0;
+    flex-basis: calc(100% / 5 - 10px);
+  }
+  .croisiere {
+    display: flex;
+  }
+}
+@media (max-width: 1024px) {
+  header span {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  main nav {
+    flex-wrap: nowrap;
+    overflow: scroll;
+    flex-basis: 0;
+    flex-shrink: 1;
+    flex: 1;
+  }
+
+  main nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  header span {
+    display: none;
+  }
+  header button {
+    display: none;
+  }
+}
